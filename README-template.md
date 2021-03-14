@@ -1,22 +1,27 @@
-# Put title of your app here
+# We Trade
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/vsay01/android-android-dev-challenge-compose-wetrade/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
-
+This is the challenge for week 3. The goal is to design based on the spec given. For more detail: https://android-developers.googleblog.com/2021/03/android-dev-challenge-3.html
+The design is for both light and dark theme.
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
+This challenge help me to think the way compose work from design to development.
+Here are some issues I faced:
+- Sometime, dark theme preview not change color or image resource despite multiple refresh (it still takes color from light)
+- Android studio not responding
+  - when try to run preview on device, scanning file index
+  - when initializing preview 
+- Preview is not showing when I set status bar transparent or hide system UI in code
+- Android Studio is slow when render multiple preview. (I noticed when I have four previews)
 
 
 ## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
+<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">&emsp;<img src="/results/screenshot_4.png" width="260">
 
 ## License
 ```
